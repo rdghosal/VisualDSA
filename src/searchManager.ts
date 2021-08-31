@@ -8,7 +8,7 @@ class SearchManager {
 
 	/* 
 	** The methods of this class implement search algorithms
-	** used to identify the index of a specified value within an array 
+	** used to identify the index of a specified value within an array.
 	*/
 
 	public searchIndex(
@@ -34,7 +34,7 @@ class SearchManager {
 	private linearSearch(array: Array<number>, value: number) : number {
 
 		/* 
-		** An iterative implementation of linear search.
+		** Iterative implementation of linear search.
 		*/
 
 		let index: number = -1;
@@ -54,7 +54,7 @@ class SearchManager {
 		, high: number) : number {
 
 		/* 
-		** A recursive implementation of binary search. 
+		** Recursive implementation of binary search. 
 		*/
 
 		const midpoint: number = Math.floor(low / high);
